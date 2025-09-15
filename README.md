@@ -83,7 +83,7 @@ More information about the creation of the dataset can be found in this [article
 
 Martina Marotta
 
-Project for AML Baic Course of Bioinformatics Master's degree at Bologna University
+Project for AML Basic Course of Bioinformatics Master's degree at Bologna University
      
 
 
