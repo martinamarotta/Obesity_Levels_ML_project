@@ -3,7 +3,7 @@
 
 | Variable | Original Survey Options | Dataset Representation | Notes |
 |---|---|---|---|
-| **Gender** | Female, Male | Binary: 0 = Female, 1 = Male |
+| **Gender** | Female, Male | Nominal: 0 = Female, 1 = Male |
   | **Age** | Numeric (years) | Continuous (years) |
 | **Height** | Numeric (meters) | Continuous (m) | **Excluded from modeling** (leakage risk with BMI-based target) |
 | **Weight** | Numeric (kg) | Continuous (kg) | **Excluded from modeling** (leakage risk with BMI-based target) |
