@@ -57,14 +57,17 @@ More information about the creation of the dataset can be found in this [article
  
 
 4. **Baseline Model Comparison with Feature Selection**
-   - Train different models with cross validation to compare performance to decide which model to use for hypertuning   
+   - Evaluated multiple algorithms (LR, LDA, SVM, KNN, CART, NB)
+   - Used Stratified K-Fold cross-validation (k=5) to ensure balanced evaluation
+   - Compared mean accuracy and F1-score across models   
 
-5. **Model **
-   -
+6. **Model and Feature Selection Optimization**
+   - Performed hyperparameter tuning using GridSearchCV within a unified pipeline
+   - Ensured preprocessing and model training occur within cross-validation folds to prevent leakage
 
-6. **Final Model Evaluation on Test Set**
+7. **Final Model Evaluation on Test Set**
    - Evaluate the selected model (**SVM**) on the test set  
-   - Report performance metrics: Accuracy, Log Loss, AUC  
+   - Report performance metrics: Accuracy, Log Loss, AUC, F1  
    - Visualize results with ROC curve and Confusion Matrix 
 
 
