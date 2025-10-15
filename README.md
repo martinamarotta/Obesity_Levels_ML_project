@@ -56,13 +56,10 @@ More information about the creation of the dataset can be found in this [article
    - Apply preprocessing: StandardScaler (numerical features) and OneHotEncoder (categorical features)  
  
 
-4. **Baseline Model Training and Evaluation**
-   - Train Logistic Regression (LR) on:  
-     - Full feature set  
-     - Reduced feature set (after selection)  
-   - Compare performance to decide which feature set to use for subsequent models  
+4. **Baseline Model Comparison with Feature Selection**
+   - Train different models with cross validation to compare performance to decide which model to use for hypertuning   
 
-5. **Model Training, Comparison & Hyperparameter Tuning**
+5. **Model **
    -
 
 6. **Final Model Evaluation on Test Set**
