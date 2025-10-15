@@ -54,7 +54,7 @@ More information about the creation of the dataset can be found in this [article
 3. **Data Preparation**
    - Split data into training and test sets  
    - Apply preprocessing: StandardScaler (numerical features) and OneHotEncoder (categorical features)  
-   - Perform feature selection (RFE, SelectKBest)  
+ 
 
 4. **Baseline Model Training and Evaluation**
    - Train Logistic Regression (LR) on:  
@@ -63,18 +63,10 @@ More information about the creation of the dataset can be found in this [article
    - Compare performance to decide which feature set to use for subsequent models  
 
 5. **Model Training, Comparison & Hyperparameter Tuning**
-   - Training with multiple algorithms:  
-     - Linear Discriminant Analysis (LDA)
-     - Logistic Regression (LR)  
-     - K-Nearest Neighbors (KNN)  
-     - Decision Tree (CART)  
-     - Gaussian Naive Bayes (NB)  
-     - Support Vector Machine (SVM)  
-   - Apply hyperparameter tuning  
-   - Compare performance with metrics: Accuracy, Log Loss, AUC 
+   -
 
 6. **Final Model Evaluation on Test Set**
-   - Evaluate the selected model (**Logistic Regression**) on the test set  
+   - Evaluate the selected model (**SVM**) on the test set  
    - Report performance metrics: Accuracy, Log Loss, AUC  
    - Visualize results with ROC curve and Confusion Matrix 
 
